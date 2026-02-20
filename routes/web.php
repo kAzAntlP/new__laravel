@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;    
 
-Route::get('/post',[PostController::class,'show']);
+Route::get('/post',['App\\Http\\Controllers\\PostController','show']);
 
 
 

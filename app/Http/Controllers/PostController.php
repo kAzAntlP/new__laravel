@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 
-// class PostController extends Controller
-// {
-//     public function show () 
-//     {
-//        return 'text';
-//     }
-// }
+class PostController extends Controller
+{
+    public function show () 
+    {
+       return 'hello world';
+    }
+}
 
 // class PostController extends Controller
 // {
@@ -27,12 +27,12 @@ namespace App\Http\Controllers;
 //     }
 // }
 
-class PostController extends Controller
-{
-    public function show () 
-    {
-       return view('post.show');
-    }
-}
+// class PostController extends Controller
+// {
+//     public function show () 
+//     {
+//        return view('post.show');
+//     }
+// }
 
 ?>
