@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-   <head>
-        <title>my view</title>
-    </head>
+<head>
+    <title>стрница йоу</title>
 </head>
-<body>
-    <x-layaut>hello</x-layaut>
-</body>
+</head>
+	<body>
+        {{ $text }}
+	</body>
 </html>

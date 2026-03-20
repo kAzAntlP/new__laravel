@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <head>
+<head>
         <title>my view</title>
-    </head>
+</head>
 </head>
 <body>
-    hello
- 
-    <!-- variable one:{{ $var1 }}
-    variable two:{{ $var2 }} -->
+
+    <!-- variable one: 1 <br>
+    variable two: 2 -->
+
+    variable one: {{ $var1 }} <br>
+    variable two: {{ $var2 }}
 
 </body>
 </html>
