@@ -7,11 +7,11 @@
 </head>
 <body>
 
-    <!-- variable one: 1 <br>
-    variable two: 2 -->
+    <!-- variable one: 1 <br> -->
+    <!-- variable two: 2 -->
 
-    variable one: {{ $var1 }} <br>
-    variable two: {{ $var2 }}
+    <!-- variable one: {{ $var1 }} <br> -->
+    <!-- variable two: {{ $var2 }} -->
 
 </body>
 </html>

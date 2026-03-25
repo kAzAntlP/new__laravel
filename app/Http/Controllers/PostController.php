@@ -64,7 +64,7 @@ namespace App\Http\Controllers;
 // {
 //     public function show() 
 //     {
-//         return view('test', ['var1' => '1', 'var2' => '2']);
+//         return view('test', ['var1' => '1', 'var2' => '2', 'var3' => '3']);
 //     }
 // }
 
@@ -85,5 +85,50 @@ namespace App\Http\Controllers;
 // }
 
 // Практика 4
+
+//Задание 1
+// class PostController extends Controller
+// {
+//     public function show() 
+//     {
+//         return 'Действие';
+//     }
+// }
+
+//Задание 2
+// class PostController extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('post.show', ['var1' => '1']);
+//     }
+// }
+
+//Задание 2
+// class PostController extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('post.show', ['var1' => '1']);
+//     }
+// }
+
+//Задание 3
+// class PostController extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('post.practice4');
+//     }
+// }
+
+class PostController extends Controller 
+{
+    public function show()
+    {
+        return view('psot.show', ['title' => 'page content', 'slot' => 'asd']);
+    }
+}
+
 
 ?>

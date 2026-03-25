@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>title</title>
+		<title>{{ $title }}</title>
 	</head>
 	<body>
-		{{ (resources/views/post/show.blade.php)}}
+		<!-- {{ (resources/views/post/show.blade.php)}} -->
+		{{ $slot }}
 	</body>
 </html>
