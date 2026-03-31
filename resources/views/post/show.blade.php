@@ -1,6 +1,6 @@
-<x-loyaut>
+<x-layout>
     <x-slot:title>
         page title
-    </x-slot:title>
-    <p>aadasa</p>
+    </x-slot>
+    page content
 </x-loyaut>

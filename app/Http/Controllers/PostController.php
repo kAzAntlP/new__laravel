@@ -126,7 +126,7 @@ class PostController extends Controller
 {
     public function show()
     {
-        return view('psot.show', ['title' => 'page content', 'slot' => 'asd']);
+        return view('post.show', ['title' => 'page content', 'slot' => 'asd']);
     }
 }
 
