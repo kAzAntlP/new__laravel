@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PostController;    
 use App\Http\Controllers\UserController;   
-use App\Http\Controllers\BladeController;   
+use App\Http\Controllers\BladeController;  
+use App\Http\Controllers\Practice_5Controller;  
 
 // Route::get('/post',['app\\Http\\Controllers\\PostController','show']);
 
@@ -33,7 +34,7 @@ use App\Http\Controllers\BladeController;
 // Route::get('/post',[PostController::class,'show']);
 
 //Практика 5
-Route::get('/post',[BladeController::class,'show']);
+Route::get('/five',[Practice_5Controller::class,'show']);
 
 
 
