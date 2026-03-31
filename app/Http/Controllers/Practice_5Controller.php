@@ -12,11 +12,21 @@ namespace App\Http\Controllers;
 // }
 
 // task 2
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('Practice_5.practice5', ['color' => 'color:red']);
+//     }
+// }
+
+
+// task 3
 class Practice_5Controller extends Controller
 {
     public function show() 
     {
-        return view('Practice_5.practice5', ['color' => 'color:red']);
+        return view('Practice_5.practice5_task3', []);
     }
 }
 
