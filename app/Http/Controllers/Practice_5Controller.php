@@ -118,15 +118,23 @@ use Symfony\Component\HttpFoundation\Request;
 // }
 
 // task 12
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+//         $str = '<b>text</b>';
+//         return view('Practice_5.practice5_task12',['str' => $str]);
+//     }
+// }
+
+// task 13
 class Practice_5Controller extends Controller
 {
     public function show() 
     {
-
-        return view('Practice_5.practice5_task11', [
-            'year' => '1488',
-            'month' => 'may', 
-            'day' => '67']);
+        $str = '<b>text</b>';
+        return view('Practice_5.practice5_task12',['str' => $str]);
     }
 }
+
 
