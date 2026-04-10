@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Symfony\Component\HttpFoundation\Request;
+
 // task 1
 // class Practice_5Controller extends Controller
 // {
@@ -73,19 +75,58 @@ namespace App\Http\Controllers;
 //     public function show() 
 //     {
 
-//         return view('Practice_5.practice5_task8', ['arr' => [67, 1488, 69, 2001, 'Близнецы']]);
+//         return view('Practice_5.practice5_task8', ['arr' => [
+//         67, 1488, 69, 2001, 'Близнецы'
+//         ]]);
 //     }
 // }
 
 // task 9
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('Practice_5.practice5_task9', ['city' => 'Moscow']);
+//     }
+// }
+
+// task 9
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+
+//         return view('Practice_5.practice5_task10', ['location' => [
+//             'Северная Корея', 'Чунгук',
+//             'Омерика', 'Нев Йорке',
+//             'Япония', 'Даты Байо',
+//             ]]);
+//     }
+// }
+
+// task 11
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+
+//         return view('Practice_5.practice5_task11', [
+//             'year' => '1488',
+//             'month' => 'may', 
+//             'day' => '67']);
+//     }
+// }
+
+// task 12
 class Practice_5Controller extends Controller
 {
     public function show() 
     {
 
-        // return view('Practice_5.practice5_task9', ['city' => 'Moscow']);
-        // return view('Practice_5.practice5_task9', ['city' => 'NewYourk']);
-        return view('Practice_5.practice5_task9', []);
+        return view('Practice_5.practice5_task11', [
+            'year' => '1488',
+            'month' => 'may', 
+            'day' => '67']);
     }
 }
 
