@@ -12,7 +12,15 @@
 
 <p>
 
-{!! $str !!}
+@isset($city, $month, $day)
+    {{ $city }}
+    {{-- $month --}}
+    {{ $day }}
+@else
+    Год: {{ $year ?? now()->year }}<br>
+    Месяц: {{-- $month ?? now()->month --}}<br>
+    День: {{ $day ?? now()->day }}
+@endisset
     
 </p>
 </x-loyaut>

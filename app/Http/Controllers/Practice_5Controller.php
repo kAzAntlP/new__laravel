@@ -132,8 +132,10 @@ class Practice_5Controller extends Controller
 {
     public function show() 
     {
-        $str = '<b>text</b>';
-        return view('Practice_5.practice5_task12',['str' => $str]);
+        return view('Practice_5.practice5_task11', [
+            'year' => '1488',
+            'month' => 'may', 
+            'day' => '67']);
     }
 }
 
