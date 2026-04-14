@@ -127,15 +127,48 @@ use Symfony\Component\HttpFoundation\Request;
 //     }
 // }
 
-// task 13
+// task 15
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('Practice_5.practice5_task11', [
+//             'year' => '1488',
+//             'month' => 'may', 
+//             'day' => '67']);
+//     }
+// }
+
+// task 16
+// class Practice_5Controller extends Controller
+// {
+//     public function show() 
+//     {
+//         return view('Practice_5.practice5_task14', [
+//             'year' => '67',
+//             ]);
+//     }
+// }
+
+// task 19
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+//         return view('Practice_5.practice5_task18', compact('numbers'));
+//     }
+// }
+
+// task 19
 class Practice_5Controller extends Controller
 {
-    public function show() 
+    public function show(Request $request) 
     {
-        return view('Practice_5.practice5_task11', [
-            'year' => '1488',
-            'month' => 'may', 
-            'day' => '67']);
+        $numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+        return view('Practice_5.practice5_task19', compact('numbers'));
     }
 }
 
