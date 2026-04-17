@@ -150,7 +150,7 @@ use Symfony\Component\HttpFoundation\Request;
 //     }
 // }
 
-// task 19
+// task 18
 // class Practice_5Controller extends Controller
 // {
 //     public function show(Request $request) 
@@ -162,14 +162,91 @@ use Symfony\Component\HttpFoundation\Request;
 // }
 
 // task 19
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+//         return view('Practice_5.practice5_task19', ['nums' => $numbers]);
+//     }
+// }
+
+
+// task 20
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $numbers = [67, 1488, 322, 2];
+
+//         return view('Practice_5.practice5_task20', ['nums' => $numbers]);
+//     }
+// }
+
+// task 21
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $numbers = [67, 1488, 322, 2];
+
+//         return view('Practice_5.practice5_task21', ['nums' => $numbers]);
+//     }
+// }
+
+// task 22
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $people = [
+//             '1' => 'Руслан',
+//             '2' => 'Эль примо',
+//             '3' => 'Эпшейн',
+//             '4' => 'дети до 12 лет',
+//             '5' => 'моргенштерн',
+//         ];
+
+//         return view('Practice_5.practice5_task22', ['nums' => $people]);
+//     }
+// }
+
+// task 23
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $people = [
+//             '1' => 'Руслан',
+//             '2' => 'Эль примо',
+//             '3' => 'Эпшейн',
+//             '4' => 'дети до 12 лет',
+//             '5' => 'моргенштерн',
+//         ];
+
+//         return view('Practice_5.practice5_task23', ['nums' => $people]);
+//     }
+// }
+
+// task 24
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $people = [67, 1488, 322, 2];
+
+//         return view('Practice_5.practice5_task24', ['nums' => $people]);
+//     }
+// }
+
+// task 24
 class Practice_5Controller extends Controller
 {
     public function show(Request $request) 
     {
-        $numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+        $date = 67;
 
-        return view('Practice_5.practice5_task19', compact('numbers'));
+        return view('Practice_5.practice5_task25', ['nums' => $date]);
     }
 }
-
-
