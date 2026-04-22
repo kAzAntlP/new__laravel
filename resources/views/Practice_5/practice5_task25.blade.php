@@ -16,11 +16,16 @@
     <h3>Результат оброботки массива</h3>
     
 <ul>
-    <p>четные элементы массива</p>
-    @if
-         
+    @if(is_array($date))
+        <ul>
+            <p>элементы массива</p>
+            @foreach ($date as $item)
+            <li> {{ $item }} </li>
+            @endforeach
+        </ul>
     @else
-
+    <p>dont массив</p>
+    <p> {{ $date }} </p>
     @endif
 </ul>
   
