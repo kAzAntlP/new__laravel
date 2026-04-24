@@ -307,7 +307,7 @@ use Symfony\Component\HttpFoundation\Request;
 //     }
 // }
 
-// task 30
+// task 30 - 32
 class Practice_5Controller extends Controller
 {
     public function show(Request $request) 
@@ -321,6 +321,7 @@ class Practice_5Controller extends Controller
             6 => 'Seemee',
             ];
 
-        return view('Practice_5.practice5_task31', ['melon' => $melon]);
+        return view('Practice_5.practice5_task32', ['melon' => $melon]);
     }
 }
+

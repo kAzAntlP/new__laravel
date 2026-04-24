@@ -6,6 +6,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;   
 use App\Http\Controllers\BladeController;  
 use App\Http\Controllers\Practice_5Controller;  
+use App\Http\Controllers\Practice_6Controller;  
 
 // Route::get('/post',['app\\Http\\Controllers\\PostController','show']);
 
@@ -35,6 +36,10 @@ use App\Http\Controllers\Practice_5Controller;
 
 //Практика 5
 Route::get('/five',[Practice_5Controller::class,'show']);
+
+
+//Практика 5
+Route::get('/six',[Practice_6Controller::class,'show']);
 
 
 
