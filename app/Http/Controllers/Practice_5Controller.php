@@ -297,12 +297,30 @@ use Symfony\Component\HttpFoundation\Request;
 // }
 
 // task 29
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         $users_name = ['Руслан', 'Кирилл', 'Джозаф', 'Pitkid'];
+
+//         return view('Practice_5.practice5_task29', ['massif' => $users_name]);
+//     }
+// }
+
+// task 30
 class Practice_5Controller extends Controller
 {
     public function show(Request $request) 
     {
-        $users_name = ['Руслан', 'Кирилл', 'Джозаф', 'Pitkid'];
+        $melon = [
+            1 => 'OG Buda',
+            2 => 'Слава КПСС',
+            3 => 'Mayot',
+            4 => '163 on my neck',
+            5 => 'Quin3D',
+            6 => 'Seemee',
+            ];
 
-        return view('Practice_5.practice5_task29', ['massif' => $users_name]);
+        return view('Practice_5.practice5_task30', ['melon' => $melon]);
     }
 }
