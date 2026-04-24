@@ -240,13 +240,69 @@ use Symfony\Component\HttpFoundation\Request;
 //     }
 // }
 
-// task 24
+// task 25
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         // $date = 67;
+//         $date = [1488, 67, 55, 1991, 2001];
+
+//         return view('Practice_5.practice5_task25', ['date' => $date]);
+//     }
+// }
+
+// task 26
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         // $date = 67;
+//         $date = [
+//         [1, 2, 3, 4],
+//         [5, 6, 7, 8],
+//         [9, 10, 11, 12],
+//         [13, 14, 15, 16]
+//         ];
+
+//         return view('Practice_5.practice5_task26', ['date' => $date]);
+//     }
+// }
+
+// // task 27 and 28
+// class Practice_5Controller extends Controller
+// {
+//     public function show(Request $request) 
+//     {
+//         	$employees = [
+// 		[
+// 			'name' => 'user1',
+// 			'surname' => 'surname1',
+// 			'salary' => 1000,
+// 		],
+// 		[
+// 			'name' => 'user2',
+// 			'surname' => 'surname2',
+// 			'salary' => 2000,
+// 		],
+// 		[
+// 			'name' => 'user3',
+// 			'surname' => 'surname3',
+// 			'salary' => 3000,
+// 		],
+// 	];
+
+//         return view('Practice_5.practice5_task27', ['massif' => $employees]);
+//     }
+// }
+
+// task 29
 class Practice_5Controller extends Controller
 {
     public function show(Request $request) 
     {
-        $date = 67;
+        $users_name = ['Руслан', 'Кирилл', 'Джозаф', 'Pitkid'];
 
-        return view('Practice_5.practice5_task25', ['nums' => $date]);
+        return view('Practice_5.practice5_task29', ['massif' => $users_name]);
     }
 }
