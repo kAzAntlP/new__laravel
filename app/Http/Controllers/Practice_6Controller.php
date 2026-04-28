@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Support\Collection;
 
-// task 1
-class Practice_6Controller extends Controller
+// task all
+class Practice_6Controller extends Collection
 {
-    public function show() 
+     public function show()
     {
-        return view('Practice_6.practice6_task1', []);
+        $all = collect([1, 2, 3])->all();
+
+        return view('Practice_6.practice6_all', ['buda' => $all]);
     }
 }
-

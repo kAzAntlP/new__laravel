@@ -3,5 +3,10 @@
         страница
     </x-slot>
 
+    <ul>
+
+    {{ $buda  }}
+
+    </ul>
 
 </x-loyaut>

@@ -321,7 +321,7 @@ class Practice_5Controller extends Controller
             6 => 'Seemee',
             ];
 
-        return view('Practice_5.practice5_task32', ['melon' => $melon]);
+        return view('Practice_5.practice5_task30', ['melon' => $melon]);
     }
 }
 

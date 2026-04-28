@@ -14,8 +14,8 @@
 
 
 
-<!-- <h3>Результат оброботки массива</h3>
-<table>
+    <h3>Результат оброботки массива</h3>
+{{-- <table>
     <thead>
         <tr style = "background-color: #bebebe;">
             @foreach ($melon as $index => $cell)
@@ -32,7 +32,7 @@
             @endforeach 
         </tr>
     </tbody>
-</table> -->
+</table>  --}}
 
 <ul>
      @foreach ($melon as $index => $cell)
